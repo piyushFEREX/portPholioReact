@@ -1,0 +1,17 @@
+.custom-transform-origin {
+    --transform-origin-x: calc(100vw * 0.618033 * 1.1699);
+    --transform-origin-y: calc(100vw * 0.618033 * 0.7228);
+    transform-origin: var(--transform-origin-x) var(--transform-origin-y);
+    /* scale:calc(0.618033); */
+    border: 4px solid black;
+    position: absolute;
+    transition: 1s all;
+  }
+  
+  .positionn{
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: calc(100vw * 0.618033 * 1.1699);
+    top: calc(100vw * 0.618033 * 0.7228);
+  }
